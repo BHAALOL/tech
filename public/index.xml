@@ -6,7 +6,14 @@
     <description>Recent content on Tech Note</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 13:08:53 +0100</lastBuildDate>
     <atom:link href="https://tech.baraille.fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux_command</title>
+      <link>https://tech.baraille.fr/post/linux_command/</link>
+      <pubDate>Mon, 13 Jan 2025 13:08:53 +0100</pubDate>
+      <guid>https://tech.baraille.fr/post/linux_command/</guid>
+      <description>&lt;h2 id=&#34;commande--grep--v-s-fichiertxt--grep--v-&#34;&gt;Commande : &lt;code&gt;grep -v &#39;^\s*#&#39; fichier.txt | grep -v &#39;^$&#39;&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Cette commande est utilisée pour filtrer un fichier texte (&lt;code&gt;fichier.txt&lt;/code&gt;) en supprimant toutes les lignes vides et les lignes de commentaires.&lt;/p&gt;&#xA;&lt;p&gt;Elle fonctionne en deux étapes :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;code&gt;grep -v &#39;^\s*#&#39; fichier.txt&lt;/code&gt;&lt;/strong&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;grep&lt;/code&gt; est un utilitaire de recherche de texte.&lt;/li&gt;&#xA;&lt;li&gt;L&amp;rsquo;option &lt;code&gt;-v&lt;/code&gt; inverse la recherche (affiche tout sauf ce qui correspond au modèle).&lt;/li&gt;&#xA;&lt;li&gt;Le modèle &lt;code&gt;&#39;^\s*#&#39;&lt;/code&gt; correspond aux lignes qui commencent par un ou plusieurs espaces (&lt;code&gt;\s*&lt;/code&gt;), suivis d&amp;rsquo;un &lt;code&gt;#&lt;/code&gt; (commentaires en ligne dans de nombreux fichiers de configuration).&lt;/li&gt;&#xA;&lt;li&gt;Cette première commande supprime donc toutes les lignes qui commencent par un commentaire (&lt;code&gt;#&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;code&gt;grep -v &#39;^$&#39;&lt;/code&gt;&lt;/strong&gt; :&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

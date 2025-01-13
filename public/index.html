@@ -77,6 +77,32 @@
 				
 				
 				
+				<section class="list-item">
+					<h1 class="title"><a href="/post/linux_command/">Linux_command</a></h1>
+					<time>Jan 13, 2025</time>
+					<br><div class="description">
+	
+	<h2 id="commande--grep--v-s-fichiertxt--grep--v-">Commande : <code>grep -v '^\s*#' fichier.txt | grep -v '^$'</code></h2>
+<h3 id="description">Description</h3>
+<p>Cette commande est utilisée pour filtrer un fichier texte (<code>fichier.txt</code>) en supprimant toutes les lignes vides et les lignes de commentaires.</p>
+<p>Elle fonctionne en deux étapes :</p>
+<ol>
+<li>
+<p><strong><code>grep -v '^\s*#' fichier.txt</code></strong> :</p>
+<ul>
+<li><code>grep</code> est un utilitaire de recherche de texte.</li>
+<li>L&rsquo;option <code>-v</code> inverse la recherche (affiche tout sauf ce qui correspond au modèle).</li>
+<li>Le modèle <code>'^\s*#'</code> correspond aux lignes qui commencent par un ou plusieurs espaces (<code>\s*</code>), suivis d&rsquo;un <code>#</code> (commentaires en ligne dans de nombreux fichiers de configuration).</li>
+<li>Cette première commande supprime donc toutes les lignes qui commencent par un commentaire (<code>#</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong><code>grep -v '^$'</code></strong> :</p>&hellip;
+	
+</div>
+					<a class="readmore" href="/post/linux_command/">Read more ⟶</a>
+				</section>
+				
 				
 
 

@@ -1,8 +1,7 @@
 +++
 date = '2025-01-13T13:08:53+01:00'
-draft = flase
+draft = false
 title = 'Linux_command'
-tags = [Linux, Système]
 +++
 
 ## Commande : `grep -v '^\s*#' fichier.txt | grep -v '^$'`
