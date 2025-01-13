@@ -13,7 +13,7 @@ grep -v '^\s*#' fichier.txt | grep -v '^$'
 # Description
 Cette commande est utilisée pour filtrer un fichier texte (`fichier.txt`) en supprimant toutes les lignes vides et les lignes de commentaires.
 
-Elle fonctionne en deux étapes : {{< details >}}
+{{< details "Explications" >}}
 1. **`grep -v '^\s*#' fichier.txt`** :
    - `grep` est un utilitaire de recherche de texte.
    - L'option `-v` inverse la recherche (affiche tout sauf ce qui correspond au modèle).
