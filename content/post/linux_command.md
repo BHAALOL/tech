@@ -10,8 +10,7 @@ title = 'Commandes Utile Linux'
 ```bash
 grep -v '^\s*#' fichier.txt | grep -v '^$'
 ```
-{{< details "Explications" >}}
-# Description
+{{< details "➡️ Explications" >}}
 Cette commande est utilisée pour filtrer un fichier texte (`fichier.txt`) en supprimant toutes les lignes vides et les lignes de commentaires.
 
 1. **`grep -v '^\s*#' fichier.txt`** :
