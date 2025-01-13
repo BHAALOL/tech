@@ -1,9 +1,9 @@
 +++
 date = '2025-01-13T13:08:53+01:00'
 draft = false
-title = 'Commande Linux'
+title = 'Commandes Linux'
 +++
-Commandes utiles sous Linux<!--more-->
+### Commandes utiles sous Linux<!--more-->
 
 ## Afficher un fichier de sans les commentaires.
 
@@ -14,7 +14,7 @@ grep -v '^\s*#' fichier.txt | grep -v '^$'
 Cette commande est utilisée pour filtrer un fichier texte (`fichier.txt`) en supprimant toutes les lignes vides et les lignes de commentaires.
 
 Elle fonctionne en deux étapes :
-<!--more-->
+{{< details >}}
 1. **`grep -v '^\s*#' fichier.txt`** :
    - `grep` est un utilitaire de recherche de texte.
    - L'option `-v` inverse la recherche (affiche tout sauf ce qui correspond au modèle).
@@ -25,5 +25,5 @@ Elle fonctionne en deux étapes :
    - Cette partie filtre les lignes vides du fichier.
    - `^$` correspond aux lignes vides (aucun caractère entre le début `^` et la fin de la ligne `$`).
    - En utilisant `-v`, toutes les lignes vides sont supprimées.
-
+{{< /details >}}
 ## Autre commande ....
