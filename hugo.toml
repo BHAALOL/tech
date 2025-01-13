@@ -15,7 +15,7 @@ paginate=3 # articles per page
 [params]
 	mode="toggle" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-#	subtitle = "Les note du [GuigZ](https://github.com/BHAALOL)"
+	subtitle = "Les note du [GuigZ](https://github.com/BHAALOL)"
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
