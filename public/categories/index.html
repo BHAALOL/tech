@@ -19,6 +19,35 @@
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.e5be0b244cfea0385bf04425148e0847f227ebc587eb7cf8ce8e2532d66a9248.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+		</script>
 </head>
 <body>
         <div class="content"><header>
@@ -26,6 +55,14 @@
 		<a href="http://localhost:1313/">Tech Note</a>
 	</div>
 	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
 		
 		
 	</nav>
@@ -46,7 +83,11 @@
 	</ul>
 </div>
 <footer>
-  <div style="display:flex"></div>
+  <div style="display:flex"><a class="soc" href="https://github.com/bhaalol" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a><a class="soc" href="" rel="me" title=""><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#%25!s%28%3cnil%3e%29" />
+</svg></a><a class="border"></a></div>
   <div class="footer-info">
     2025  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
